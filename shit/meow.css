@@ -1,8 +1,23 @@
 body{
-    background-color: black;
+    background-color: rgb(0, 0, 0);
 }
 
 .txtt{
     color:white;
     font-family: meowfont;
+}
+
+#fuckyou{
+    text-align: center;
+}
+
+#welcometext{
+    font-size: 4em;
+    
+}
+
+#mainithink{
+    width:80%;
+    -webkit-animation: slide-in-elliptic-top-fwd 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-elliptic-top-fwd 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }

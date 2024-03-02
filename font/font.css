@@ -1,4 +1,9 @@
 @font-face {
     font-family: meowfont;
-    src: url('Whacky_joe.ttf'), format('truetype');
+    src: url('whacky_joe-webfont.woff'), format('woff2');
+}
+
+@font-face {
+    font-family: meowparagraph;
+    src: url('mintsoda.woff'), format('woff2');
 }

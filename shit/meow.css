@@ -1,23 +1,154 @@
 body{
     background-color: rgb(0, 0, 0);
 }
+*{
+    cursor: url(../cursor.png),
+    auto;
+}
 
 .txtt{
-    color:white;
     font-family: meowfont;
 }
 
-#fuckyou{
+#fuckyou,#stuffs,#actualshit,#guh,#secondrow{
     text-align: center;
+}
+
+#stuffs{
+    padding-top: 15px;
 }
 
 #welcometext{
     font-size: 4em;
-    
+    color:white;
+    text-decoration: none;
+    background: rgba(0, 0, 0, 0) -webkit-gradient(linear, left top, right top, from(#90f3b3), color-stop(#90e9f3), color-stop(#909ff3), color-stop(#cc90f3), color-stop(#f390d1), color-stop(#f39a90), color-stop(#f3e590), to(#b8f390)) repeat scroll 0% 0%/200% 200%;
+    background: rgba(0, 0, 0, 0) linear-gradient(90deg, #90f3b3, #90e9f3, #909ff3, #cc90f3, #f390d1, #f39a90, #f3e590, #b8f390) repeat scroll 0% 0%/200% 200%;
+    background-clip: border-box;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-animation: GradientAnimation 5s ease infinite;
+    animation: GradientAnimation 5s ease infinite;
+   /* text-shadow: rgb(0, 0, 0) 7px 0px 0px, rgb(0, 0, 0) 6.92869px 0.996602px 0px, rgb(0, 0, 0) 6.71622px 1.9729px 0px, rgb(0, 0, 0) 6.36692px 2.909px 0px, rgb(0, 0, 0) 5.8879px 3.78584px 0px, rgb(0, 0, 0) 5.28893px 4.58555px 0px, rgb(0, 0, 0) 4.5822px 5.29183px 0px, rgb(0, 0, 0) 3.78212px 5.8903px 0px, rgb(0, 0, 0) 2.90498px 6.36876px 0px, rgb(0, 0, 0) 1.96865px 6.71747px 0px, rgb(0, 0, 0) 0.992221px 6.92932px 0px, rgb(0, 0, 0) -0.00442571px 7px 0px, rgb(0, 0, 0) -1.00098px 6.92806px 0px, rgb(0, 0, 0) -1.97715px 6.71498px 0px, rgb(0, 0, 0) -2.91303px 6.36508px 0px, rgb(0, 0, 0) -3.78956px 5.88551px 0px, rgb(0, 0, 0) -4.58889px 5.28603px 0px, rgb(0, 0, 0) -5.29472px 4.57885px 0px, rgb(0, 0, 0) -5.89269px 3.77839px 0px, rgb(0, 0, 0) -6.3706px 2.90095px 0px, rgb(0, 0, 0) -6.71871px 1.96441px 0px, rgb(0, 0, 0) -6.92995px 0.98784px 0px, rgb(0, 0, 0) -6.99999px -0.00885142px 0px, rgb(0, 0, 0) -6.92743px -1.00536px 0px, rgb(0, 0, 0) -6.71372px -1.98139px 0px, rgb(0, 0, 0) -6.36324px -2.91705px 0px, rgb(0, 0, 0) -5.88311px -3.79328px 0px, rgb(0, 0, 0) -5.28313px -4.59223px 0px, rgb(0, 0, 0) -4.57551px -5.29762px 0px, rgb(0, 0, 0) -3.77467px -5.89507px 0px, rgb(0, 0, 0) -2.89692px -6.37243px 0px, rgb(0, 0, 0) -1.96016px -6.71995px 0px, rgb(0, 0, 0) -0.983458px -6.93057px 0px, rgb(0, 0, 0) 0.0132771px -6.99999px 0px, rgb(0, 0, 0) 1.00974px -6.92679px 0px, rgb(0, 0, 0) 1.98564px -6.71247px 0px, rgb(0, 0, 0) 2.92107px -6.36139px 0px, rgb(0, 0, 0) 3.797px -5.88071px 0px, rgb(0, 0, 0) 4.59557px -5.28022px 0px, rgb(0, 0, 0) 5.30051px -4.57215px 0px, rgb(0, 0, 0) 5.89746px -3.77094px 0px, rgb(0, 0, 0) 6.37426px -2.89289px 0px, rgb(0, 0, 0) 6.72119px -1.95591px 0px, rgb(0, 0, 0) 6.93119px -0.979076px 0px;*/
+}
+
+#headtext{
+    font-size: 3em;
+    color: transparent;
+    background-image: repeating-linear-gradient(45deg, #f1f1f1 0px, #f1f1f1 144px, gray 144px, gray 288px, #bebebe 288px, #bebebe 432px);
+    background-size: 250%;
+    background-position: 0%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-animation: stripeAnimation 8s linear infinite;
+    animation: stripeAnimation 8s linear infinite;
+    margin-top:auto;
+}
+
+#ptext{
+    font-size: 1em;
+    color: white;
+    font-family: meowparagraph;
+    list-style: none;
+}
+
+#github{
+    color: rgb(156, 178, 255);
+}
+
+#twitter{
+    color: rgb(156, 255, 255);
+}
+
+#youtube{
+    color: rgb(255, 59, 154);
+}
+
+#discord{
+    color: rgb(101, 59, 255);
+}
+
+#moneyz{
+    color: rgb(124, 255, 112);
+}
+
+.smtext{
+    font-size: 1em;
+    font-family: meowfont;
+    text-decoration: none;
+}
+
+#wiptext{
+    color: rgb(255, 221, 30);
+    text-shadow: rgb(0, 0, 0) 7px 0px 0px, rgb(0, 0, 0) 6.92869px 0.996602px 0px, rgb(0, 0, 0) 6.71622px 1.9729px 0px, rgb(0, 0, 0) 6.36692px 2.909px 0px, rgb(0, 0, 0) 5.8879px 3.78584px 0px, rgb(0, 0, 0) 5.28893px 4.58555px 0px, rgb(0, 0, 0) 4.5822px 5.29183px 0px, rgb(0, 0, 0) 3.78212px 5.8903px 0px, rgb(0, 0, 0) 2.90498px 6.36876px 0px, rgb(0, 0, 0) 1.96865px 6.71747px 0px, rgb(0, 0, 0) 0.992221px 6.92932px 0px, rgb(0, 0, 0) -0.00442571px 7px 0px, rgb(0, 0, 0) -1.00098px 6.92806px 0px, rgb(0, 0, 0) -1.97715px 6.71498px 0px, rgb(0, 0, 0) -2.91303px 6.36508px 0px, rgb(0, 0, 0) -3.78956px 5.88551px 0px, rgb(0, 0, 0) -4.58889px 5.28603px 0px, rgb(0, 0, 0) -5.29472px 4.57885px 0px, rgb(0, 0, 0) -5.89269px 3.77839px 0px, rgb(0, 0, 0) -6.3706px 2.90095px 0px, rgb(0, 0, 0) -6.71871px 1.96441px 0px, rgb(0, 0, 0) -6.92995px 0.98784px 0px, rgb(0, 0, 0) -6.99999px -0.00885142px 0px, rgb(0, 0, 0) -6.92743px -1.00536px 0px, rgb(0, 0, 0) -6.71372px -1.98139px 0px, rgb(0, 0, 0) -6.36324px -2.91705px 0px, rgb(0, 0, 0) -5.88311px -3.79328px 0px, rgb(0, 0, 0) -5.28313px -4.59223px 0px, rgb(0, 0, 0) -4.57551px -5.29762px 0px, rgb(0, 0, 0) -3.77467px -5.89507px 0px, rgb(0, 0, 0) -2.89692px -6.37243px 0px, rgb(0, 0, 0) -1.96016px -6.71995px 0px, rgb(0, 0, 0) -0.983458px -6.93057px 0px, rgb(0, 0, 0) 0.0132771px -6.99999px 0px, rgb(0, 0, 0) 1.00974px -6.92679px 0px, rgb(0, 0, 0) 1.98564px -6.71247px 0px, rgb(0, 0, 0) 2.92107px -6.36139px 0px, rgb(0, 0, 0) 3.797px -5.88071px 0px, rgb(0, 0, 0) 4.59557px -5.28022px 0px, rgb(0, 0, 0) 5.30051px -4.57215px 0px, rgb(0, 0, 0) 5.89746px -3.77094px 0px, rgb(0, 0, 0) 6.37426px -2.89289px 0px, rgb(0, 0, 0) 6.72119px -1.95591px 0px, rgb(0, 0, 0) 6.93119px -0.979076px 0px;
+}
+
+.oktext{
+    font-size: 1.5em;
+    list-style: none;
+    font-family: meowparagraph;
+}
+#datetext{
+    color: rgb(124, 255, 112);
+}
+#weathertext{
+    color: rgb(30, 195, 255);
+}
+#timetext{
+    color: rgb(255, 221, 30);
 }
 
 #mainithink{
-    width:80%;
+    width: 50%;
+    background-image: repeating-linear-gradient(45.3deg, transparent, transparent 49px, #000000 49px, #000000 98px);
+	background-color: #8000ff2b;
     -webkit-animation: slide-in-elliptic-top-fwd 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: slide-in-elliptic-top-fwd 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-elliptic-top-fwd 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both, stripesp 100s linear infinite;
+}
+
+#actualshit{
+
+    width: 90%;
+    background-size: 94px 94px;
+    background-image: repeating-conic-gradient(#65004a1f 0% 25%, #0000006d 0% 50%);
+	-webkit-animation: slide-in-blurred-bottom 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1.6s both;
+	        animation: slide-in-blurred-bottom 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1.6s both;
+}
+
+#secondrow{
+    width: 90%;
+    background: repeating-conic-gradient(from 45deg, #0065031f 0% 25%, #0000006d 0% 50%);
+	background-size: 70px 70px;
+    -webkit-animation: tilt-in-bl 0.65s cubic-bezier(0.250, 0.460, 0.450, 0.940) 2.2s both;
+	        animation: tilt-in-bl 0.65s cubic-bezier(0.250, 0.460, 0.450, 0.940) 2.2s both;
+}
+
+#guh{
+    padding-top: 15px;
+}
+
+#oneko{
+    z-index: 1;
+}
+
+@keyframes stripesp {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 20000px 0;
+    }
+}
+
+@keyframes GradientAnimation {
+    0% { background-position: 0% 50% }
+    50% { background-position: 100% 50% }
+    100% { background-position: 0% 50% }
+  }
+
+@keyframes stripeAnimation {
+    100% {
+      background-position: 165%;
+    }
 }
